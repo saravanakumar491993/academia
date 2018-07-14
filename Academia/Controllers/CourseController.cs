@@ -10,6 +10,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Academia.Controllers
 {
+    /// <summary>
+    /// A controller class for Course
+    /// </summary>
     [Route("api/courses")]
     [ApiController]
     public class CourseController : ControllerBase
